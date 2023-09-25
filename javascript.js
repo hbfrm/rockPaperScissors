@@ -21,7 +21,7 @@ const computerChoice = getComputerChoice();
 // Get player's choice
 const playerChoice = prompt("Your choice? ", "rock");
 
-  // make it case-insensitive and assign it to const
+  // make it case-insensitive, Capitalize first letter, lowerCase rest and assign it to const
 const playerChoiceInsensitive = playerChoice.charAt(0).toUpperCase() + playerChoice.slice(1).toLowerCase();
 
 // Check who won
