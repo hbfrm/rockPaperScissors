@@ -26,8 +26,12 @@ const playerChoiceInsensitive = playerChoice.charAt(0).toUpperCase() + playerCho
 
 // Check who won/ play round function
 function playRound(playerSelection, computerSelection) {
+  if (playerSelection == computerSelection) {
+    return "It's a tie!";
+  }
+
   if (playerSelection == "Rock") {
-    
+    if (computerSelection == "Paper")
   } else if (playerSelection == "Paper") {
 
   } else {
