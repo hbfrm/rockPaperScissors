@@ -24,5 +24,14 @@ const playerChoice = prompt("Your choice? ", "rock");
   // make it case-insensitive, Capitalize first letter, lowerCase rest and assign it to const
 const playerChoiceInsensitive = playerChoice.charAt(0).toUpperCase() + playerChoice.slice(1).toLowerCase();
 
-// Check who won
+// Check who won/ play round function
+function playRound(playerSelection, computerSelection) {
+  if (playerSelection == "Rock") {
+    
+  } else if (playerSelection == "Paper") {
+
+  } else {
+
+  }
+}
 // Output the result
