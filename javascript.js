@@ -7,18 +7,22 @@ function getRandomInt() {
 function getComputerChoice() {
   let choice = getRandomInt();
   if (choice == 0) {
-    return "rock";
+    return "Rock";
   } else if (choice == 1) {
-    return "paper";
+    return "Paper";
   } else {
-    return "scissors";
+    return "Scissors";
   }
 }
 
 // Assign it to a variable 
+const computerChoice = getComputerChoice();
+
 // Get player's choice
-  // make it case-insensitive
-// Assign it to a variable
-//
+const playerChoice = prompt("Your choice? ", "rock");
+
+  // make it case-insensitive and assign it to const
+const playerChoiceInsensitive = playerChoice.toLowerCase();
+
 // Check who won
 // Output the result
