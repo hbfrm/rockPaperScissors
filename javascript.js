@@ -4,7 +4,16 @@ function getRandomInt() {
 }
 
 // Assign choice to number
-function assignChoiceToInt()
+function assignChoiceToInt() {
+  let choice = getRandomInt();
+  if (choice == 0) {
+    return "rock";
+  } else if (choice == 1) {
+    return "paper";
+  } else {
+    return "scissors";
+  }
+}
 // Get computer's choice
 function getComputerChoice() {
 
