@@ -3,8 +3,8 @@ function getRandomInt() {
   return Math.floor(Math.random() * 3);
 }
 
-// Assign choice to number
-function assignChoiceToInt() {
+// Get computer choice
+function getComputerChoice() {
   let choice = getRandomInt();
   if (choice == 0) {
     return "rock";
@@ -14,11 +14,7 @@ function assignChoiceToInt() {
     return "scissors";
   }
 }
-// Get computer's choice
-function getComputerChoice() {
 
-  return choice;
-}
 // Assign it to a variable 
 // Get player's choice
   // make it case-insensitive
