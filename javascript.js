@@ -51,5 +51,8 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-// Output the result
-console.log(playRound(playerChoiceInsensitive, computerChoice));
+// Point 6. New function game()
+
+function game() {
+  
+}
